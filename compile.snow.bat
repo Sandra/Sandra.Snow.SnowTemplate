@@ -1,0 +1,1 @@
+.\Snow\_compiler\Sandra.Snow.PreCompiler.exe config=.\Snow\ debug=true
