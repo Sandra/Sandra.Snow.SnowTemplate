@@ -1,4 +1,4 @@
-@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<Sandra.Snow.PreCompiler.ViewModels.PostViewModel>
+@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<Snow.ViewModels.PostViewModel>
 @using System.Collections.Generic
 @{
   Layout = "default.cshtml";
@@ -26,8 +26,8 @@
         
     @Html.Raw(Model.PostContent)
 
-    @Html.RenderDisqusComments("philliphaydon")
+    @Html.RenderDisqusComments("*disqus id*")
     
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51ca97356d8c1454"></script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-****"></script>
 
 </div>
