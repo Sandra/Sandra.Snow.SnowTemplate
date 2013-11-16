@@ -1,1 +1,1 @@
-.\Snow\_compiler\Snow.exe config=.\Snow\ debug=true
+.\Snow\_compiler\Snow.exe config=.\Snow\
