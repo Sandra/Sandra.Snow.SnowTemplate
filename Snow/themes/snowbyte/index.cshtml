@@ -12,7 +12,7 @@
         <p class="posted">@postPaged.Date.ToString("dd MMM yyyy")</p>
         <ul class="categories">
         @foreach(var category in @postPaged.Categories.ToList()) {
-          <li><a href="/category/@category" title="@category">@category</a></li>
+          <li><a href="/category/@category.ToUrlSlug()" title="@category">@category</a></li>
         }
         </ul>
       </div>
